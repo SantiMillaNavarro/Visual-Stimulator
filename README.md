@@ -73,7 +73,7 @@ The v2.1.x branch also provides a bilingual Spanish/English operator interface. 
 
 ## Download and installation
 
-For normal use, download the Windows installer from the **GitHub Releases** section.
+For normal use, download the Windows installer from the **[latest GitHub Release](https://github.com/SantiMillaNavarro/Visual-Stimulator/releases/latest)**.
 
 The standalone installer is intended to run without requiring Jupyter, Anaconda, VS Code, or a separate manual Python installation.
 
@@ -90,6 +90,8 @@ SHA-256:
 ```text
 bf733439e707f5ba65884fb50928b5024e286c601cbe646adbaba2317fd67f2f
 ```
+
+See [`RELEASE_NOTES_v2.1.3.md`](RELEASE_NOTES_v2.1.3.md) for the release summary.
 
 ## Documentation
 
@@ -108,7 +110,9 @@ The source is provided in two equivalent forms:
 - [`src/MEA_Visual_Stimuli_v2_1_3.py`](src/MEA_Visual_Stimuli_v2_1_3.py) — easier to inspect, search and diff on GitHub.
 - [`src/MEA_Visual_Stimuli_v2_1_3.ipynb`](src/MEA_Visual_Stimuli_v2_1_3.ipynb) — Jupyter notebook retained for development continuity.
 
-The application uses Python/Tkinter for the operator interface and PsychoPy for experimental visual presentation. PySerial is used by FTDI-based trigger modes.
+The application uses Python/Tkinter for the operator interface and PsychoPy for experimental visual presentation. The source environment also requires NumPy and Pyglet; PySerial is used by FTDI-based trigger modes.
+
+Exact package versions for the v2.1.3 development environment are not currently pinned in the repository. For experimental use, the packaged Windows release is therefore the recommended distribution. Developers running from source should validate display timing and hardware behavior on their own setup.
 
 ## Experimental records and reproducibility
 
@@ -155,6 +159,12 @@ That hardware combination is a documented validation case, not a requirement for
 ## Version history
 
 See [`CHANGELOG.md`](CHANGELOG.md).
+
+## Contributing
+
+Contributions, bug reports and scientifically useful improvements are welcome. Please see [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+Changes that affect stimulus generation, display timing, TTL behavior or protocol compatibility should include enough information to understand how they were tested. The aim is to keep Visual Stimulator free, reproducible and useful across different experimental setups.
 
 ## Artificial-intelligence-assisted development
 
