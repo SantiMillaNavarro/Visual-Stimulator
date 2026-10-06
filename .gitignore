@@ -1,0 +1,39 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Application-generated local state
+logs/
+run/
+runs/
+config.json
+protocols.json
+abort.bin
+command.json
+result.json
+status.json
+startup_config.json
+protocol_pause.json
+
+# Experimental/data outputs
+*.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Installer/build output
+build/
+dist/
+*.spec
+*.exe
