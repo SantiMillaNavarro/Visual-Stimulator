@@ -1,10 +1,10 @@
-# MEA Visual Stimuli v2.1.3
+# Visual Stimulator v2.1.3
 
-Stable Windows release of MEA Visual Stimuli.
+Stable Windows release of Visual Stimulator.
 
 ## Highlights
 
-- PsychoPy-based visual stimulation for MEA and related experimental workflows.
+- PsychoPy-based controlled visual stimulation for MEA/electrophysiology, ex vivo retinal or tissue preparations, in vivo experiments, and other experimental workflows requiring visual stimulation.
 - Dedicated stimulation display with separate operator interface.
 - Reproducible multi-step protocols.
 - ON/OFF, motion, gratings, Gabors, Asymmetric Drift, noise, receptive-field mapping and temporal stimuli.
@@ -26,9 +26,13 @@ bf733439e707f5ba65884fb50928b5024e286c601cbe646adbaba2317fd67f2f
 
 The installer is intended to run without requiring Jupyter, Anaconda, VS Code or a separate manual Python installation.
 
+## Scope
+
+Visual Stimulator is a general-purpose experimental visual-stimulation tool and is not limited to MEA recordings. MEA/PowerLab is the historically validated workflow documented in the current technical manual.
+
 ## Documentation
 
-The v2.0 user/technical manual documents the validated experimental architecture used by the v2.1.x branch.
+The v2.0 user/technical manual documents the validated experimental architecture used by the v2.1.x branch. The manual retains the historical **MEA Visual Stimuli** title for traceability.
 
 ## Validation note
 
