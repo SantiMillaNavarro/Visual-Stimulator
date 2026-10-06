@@ -10,15 +10,31 @@ The current v2.1.x branch preserves the validated experimental architecture docu
 
 ## Screenshots
 
-Screenshots will be added in `docs/images/`.
+### Operator interface
 
-Recommended filenames:
+![ON/OFF configuration](docs/images/menuOnOFf.png)
 
-- `main-interface.png` — main operator interface
-- `stimulus-preview.png` — representative stimulus/preview
-- `protocols.png` — protocol builder
-- `system-ttl.png` — System / TTL configuration
-- `red-mode.png` — optional red operator-interface mode
+### Motion stimuli
+
+![Motion configuration](docs/images/menumotion.png)
+
+![Moving bar stimulus](docs/images/movingbar.png)
+
+### Noise stimuli
+
+![Noise configuration](docs/images/noise.png)
+
+### Protocol builder
+
+![Protocol builder](docs/images/menuprotocols.png)
+
+### System / TTL
+
+![System and TTL configuration](docs/images/menuTTL.png)
+
+### Red operator-interface mode
+
+![Red operator-interface mode](docs/images/menured.png)
 
 ## Main capabilities
 
