@@ -14,7 +14,7 @@ The program is **not restricted to MEA experiments**. It is intended as a genera
 - experiments synchronized with PowerLab, MEA systems or other acquisition hardware;
 - standalone visual-stimulation paradigms that do not require an external acquisition system.
 
-The current v2.1.x branch preserves the experimental architecture originally developed and validated in an MEA/PowerLab workflow, while broadening the public identity and intended scope of the software. The bundled v2.0 manual and some historical source filenames retain the earlier **MEA Visual Stimuli** name for traceability with the validated development branch; the current project name is **Visual Stimulator**.
+The current v2.1.x branch preserves the experimental architecture originally developed and validated in an MEA/PowerLab workflow, while broadening the public identity and intended scope of the software. The bundled v2.0 manual and some internal compatibility identifiers retain the earlier **MEA Visual Stimuli** name for traceability with the validated development branch; the current project name is **Visual Stimulator**.
 
 The v2.1.x branch also provides a bilingual Spanish/English operator interface. English is the default language for new installations.
 
@@ -109,8 +109,8 @@ See [`CHANGELOG.md`](CHANGELOG.md) for the subsequent maintenance history.
 
 The source is provided in two equivalent forms:
 
-- [`src/MEA_Visual_Stimuli_v2_1_3.py`](src/MEA_Visual_Stimuli_v2_1_3.py) — easier to inspect, search and diff on GitHub.
-- [`src/MEA_Visual_Stimuli_v2_1_3.ipynb`](src/MEA_Visual_Stimuli_v2_1_3.ipynb) — Jupyter notebook retained for development continuity.
+- [`src/Visual_Stimulator_v2_1_3.py`](src/Visual_Stimulator_v2_1_3.py) — easier to inspect, search and diff on GitHub.
+- [`src/Visual_Stimulator_v2_1_3.ipynb`](src/Visual_Stimulator_v2_1_3.ipynb) — Jupyter notebook retained for development continuity.
 
 The application uses Python/Tkinter for the operator interface and PsychoPy for experimental visual presentation. The source environment also requires NumPy and Pyglet; PySerial is used by FTDI-based trigger modes.
 
