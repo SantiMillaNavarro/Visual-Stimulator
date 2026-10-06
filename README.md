@@ -1,12 +1,22 @@
-# MEA Visual Stimuli
+# Visual Stimulator
 
-**Scientific visual-stimulation software for MEA experiments, with PsychoPy presentation, reproducible protocols, timing logs, and optional TTL synchronization.**
+**Open scientific software for controlled visual stimulation in experimental research.**
 
 Current release: **v2.1.3**
 
-MEA Visual Stimuli is a Windows-oriented experimental tool for presenting controlled visual stimuli on a dedicated stimulation display while the operator works from a separate interface. It is designed around reproducibility, explicit timing records, protocol construction, and synchronization with external acquisition systems.
+**Visual Stimulator** is a Windows-oriented experimental tool for presenting controlled and reproducible visual stimuli on a dedicated stimulation display while the operator works from a separate interface. It is designed around reproducibility, explicit timing records, protocol construction, and optional synchronization with external acquisition systems.
 
-The current v2.1.x branch preserves the validated experimental architecture documented for v2.0 and adds a bilingual Spanish/English operator interface. English is the default language for new installations.
+The program is **not restricted to MEA experiments**. It is intended as a general-purpose visual-stimulation platform for any experimental setup in which controlled display-based stimulation is appropriate, including:
+
+- multi-electrode array (MEA) and other electrophysiology experiments;
+- ex vivo retinal, cellular or tissue preparations;
+- in vivo visual experiments;
+- experiments synchronized with PowerLab, MEA systems or other acquisition hardware;
+- standalone visual-stimulation paradigms that do not require an external acquisition system.
+
+The current v2.1.x branch preserves the experimental architecture originally developed and validated in an MEA/PowerLab workflow, while broadening the public identity and intended scope of the software. The bundled v2.0 manual and some historical source filenames retain the earlier **MEA Visual Stimuli** name for traceability with the validated development branch; the current project name is **Visual Stimulator**.
+
+The v2.1.x branch also provides a bilingual Spanish/English operator interface. English is the default language for new installations.
 
 ## Screenshots
 
@@ -162,6 +172,20 @@ This statement is included to provide transparency about the development process
 
 Project directed by **Santi Milla Navarro**.
 
+## Citation
+
+If **Visual Stimulator** contributes to your research, please cite the software and the version used. GitHub can generate citation information directly from [`CITATION.cff`](CITATION.cff).
+
+A persistent DOI can be added in the future if the project is archived through a service such as Zenodo.
+
 ## License
 
-A license will be selected before the repository is made public.
+Copyright © 2026 Santi Milla Navarro.
+
+**Visual Stimulator is free software licensed under the GNU General Public License v3.0 or later (GPL-3.0-or-later).**
+
+You are free to use, study, modify and redistribute the software under the terms of that license. If you distribute a modified version, the corresponding source and the same GPL freedoms must remain available to its recipients.
+
+The license is intended to keep the project free and open as it evolves, while allowing researchers to use and adapt it without licensing fees.
+
+See [`LICENSE`](LICENSE) for the complete terms.
