@@ -91,6 +91,8 @@ SHA-256:
 bf733439e707f5ba65884fb50928b5024e286c601cbe646adbaba2317fd67f2f
 ```
 
+The current installer is **not digitally code-signed**, so Windows SmartScreen may display a warning on first launch. Verify the SHA-256 above if you want to confirm that the downloaded installer matches the published v2.1.3 build.
+
 See [`RELEASE_NOTES_v2.1.3.md`](RELEASE_NOTES_v2.1.3.md) for the release summary.
 
 ## Documentation
