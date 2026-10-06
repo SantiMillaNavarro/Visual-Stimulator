@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use Visual Stimulator in your research, please cite this software and the version used."
+title: "Visual Stimulator"
+type: software
+authors:
+  - family-names: "Milla Navarro"
+    given-names: "Santi"
+version: "2.1.3"
+date-released: "2026-10-06"
+url: "https://github.com/SantiMillaNavarro/Visual-Stimulator"
+repository-code: "https://github.com/SantiMillaNavarro/Visual-Stimulator"
+license: "GPL-3.0-or-later"
+abstract: >-
+  Open scientific software for controlled and reproducible visual stimulation
+  in experimental research. Visual Stimulator can be used in MEA and other
+  electrophysiology workflows, ex vivo retinal or tissue preparations, in vivo
+  experiments, and other setups requiring controlled display-based visual
+  stimulation, with optional TTL synchronization and per-frame timing records.
+keywords:
+  - visual stimulation
+  - electrophysiology
+  - MEA
+  - neuroscience
+  - in vivo
+  - ex vivo
+  - PsychoPy
+  - TTL synchronization
