@@ -1,6 +1,13 @@
 # Changelog
 
-All notable changes to MEA Visual Stimuli are documented here.
+All notable changes to Visual Stimulator are documented here.
+
+## Repository identity and licensing — 2026-10-06
+
+- Public project name standardized as **Visual Stimulator** to reflect its general experimental scope beyond MEA.
+- Historical v2.0 manual/source naming retained where useful for traceability with the validated branch.
+- Project licensed under **GPL-3.0-or-later**.
+- Added `CITATION.cff` to support scientific citation.
 
 ## v2.1.3
 
