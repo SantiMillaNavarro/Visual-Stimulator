@@ -80,9 +80,21 @@ The standalone installer is intended to run without requiring Jupyter, Anaconda,
 
 ### Current release
 
-**v2.2.1**
+**v2.2.1 — Windows 10 x64 installer**
 
-The packaged Windows version is distributed through GitHub Releases. Version 2.2.1 includes the new FOCUS / ENFOQUE alignment target introduced in v2.2.0 and a translation-matching correction.
+Release asset:
+
+`Visual_Stimulator_v2_2_1_Setup_Win10_x64.exe`
+
+SHA-256:
+
+```text
+fef58f7f541618404e4b22375b6d343c9f717abe8740bf438e81e1d3e88592f1
+```
+
+Version 2.2.1 includes the new **FOCUS / ENFOQUE** alignment target introduced in v2.2.0 and a correction to bilingual translation matching.
+
+The current installer is **not digitally code-signed**, so Windows SmartScreen may display a warning on first launch. Verify the SHA-256 above if you want to confirm that the downloaded installer matches the published v2.2.1 build.
 
 See [`RELEASE_NOTES_v2.2.1.md`](RELEASE_NOTES_v2.2.1.md) for the release summary.
 
