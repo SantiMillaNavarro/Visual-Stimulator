@@ -2,6 +2,20 @@
 
 All notable changes to Visual Stimulator are documented here.
 
+## v2.2.1
+
+- Corrected repetitive substring translation artifacts in the bilingual interface by applying safer word-boundary matching where appropriate.
+- Prevents malformed strings such as repeated suffixes in translated labels/messages.
+- The FOCUS / ENFOQUE feature introduced in v2.2.0 is unchanged.
+- Experimental stimulation, trigger and display-worker logic remain unchanged from v2.2.0.
+
+## v2.2.0
+
+- Added an operator-controlled **FOCUS / ENFOQUE** target on the experimental display for retinal/preparation alignment.
+- The focus display is a PsychoPy vector utility with concentric segmented bands, a central fixation structure and high-contrast/color references.
+- Focus mode does not start an experimental run, does not write experimental logs and does not use the TTL backend.
+- Focus mode is unavailable during active experimental execution and is automatically disabled before a stimulus begins.
+
 ## Repository identity and licensing — 2026-10-06
 
 - Public project name standardized as **Visual Stimulator** to reflect its general experimental scope beyond MEA.
