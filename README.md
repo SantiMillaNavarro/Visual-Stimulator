@@ -2,7 +2,7 @@
 
 **Open scientific software for controlled visual stimulation in experimental research.**
 
-Current release: **v2.1.3**
+Current release: **v2.2.1**
 
 **Visual Stimulator** is a Windows-oriented experimental tool for presenting controlled and reproducible visual stimuli on a dedicated stimulation display while the operator works from a separate interface. It is designed around reproducibility, explicit timing records, protocol construction, and optional synchronization with external acquisition systems.
 
@@ -14,9 +14,9 @@ The program is **not restricted to MEA experiments**. It is intended as a genera
 - experiments synchronized with PowerLab, MEA systems or other acquisition hardware;
 - standalone visual-stimulation paradigms that do not require an external acquisition system.
 
-The current v2.1.x branch preserves the experimental architecture originally developed and validated in an MEA/PowerLab workflow, while broadening the public identity and intended scope of the software. The bundled v2.0 manual and some internal compatibility identifiers retain the earlier **MEA Visual Stimuli** name for traceability with the validated development branch; the current project name is **Visual Stimulator**.
+The current v2.x branch preserves the experimental architecture originally developed and validated in an MEA/PowerLab workflow, while broadening the public identity and intended scope of the software. The bundled v2.0 manual and some internal compatibility identifiers retain the earlier **MEA Visual Stimuli** name for traceability with the validated development branch; the current project name is **Visual Stimulator**.
 
-The v2.1.x branch also provides a bilingual Spanish/English operator interface. English is the default language for new installations.
+The v2.1.x branch introduced the bilingual Spanish/English operator interface. The v2.2 series adds an operator-controlled **FOCUS / ENFOQUE** target for retinal or preparation alignment; this utility is kept separate from experimental runs and does not generate TTL events or experimental logs.
 
 ## Screenshots
 
@@ -68,6 +68,7 @@ The v2.1.x branch also provides a bilingual Spanish/English operator interface. 
 - Optional TTL operation: simulation, MaxOne Legacy FTDI, generic FTDI-based TTL trigger box, or disabled mode.
 - UNIVERSAL frame/event synchronization and AUX EVENT state track in the validated generic TTL workflow.
 - Safe abort/return-to-black behavior.
+- **FOCUS / ENFOQUE alignment target** on the experimental display, independent of experimental runs, TTL and logging.
 - Dark red operator-interface mode for low-light experimental environments.
 - Spanish and English operator interface.
 
@@ -79,21 +80,11 @@ The standalone installer is intended to run without requiring Jupyter, Anaconda,
 
 ### Current release
 
-**v2.1.3 — Windows 10 x64 installer**
+**v2.2.1**
 
-Release asset:
+The packaged Windows version is distributed through GitHub Releases. Version 2.2.1 includes the new FOCUS / ENFOQUE alignment target introduced in v2.2.0 and a translation-matching correction.
 
-`Visual_Stimulator_v2_1_3_Setup_Win10_x64.exe`
-
-SHA-256:
-
-```text
-bf733439e707f5ba65884fb50928b5024e286c601cbe646adbaba2317fd67f2f
-```
-
-The current installer is **not digitally code-signed**, so Windows SmartScreen may display a warning on first launch. Verify the SHA-256 above if you want to confirm that the downloaded installer matches the published v2.1.3 build.
-
-See [`RELEASE_NOTES_v2.1.3.md`](RELEASE_NOTES_v2.1.3.md) for the release summary.
+See [`RELEASE_NOTES_v2.2.1.md`](RELEASE_NOTES_v2.2.1.md) for the release summary.
 
 ## Documentation
 
@@ -101,7 +92,7 @@ The technical/user manual is available here:
 
 [`docs/MEA_Visual_Stimuli_Manual_v2_0.pdf`](docs/MEA_Visual_Stimuli_Manual_v2_0.pdf)
 
-The v2.0 manual documents the validated experimental architecture used by the v2.1.x branch. The later 2.1.x releases primarily extend the bilingual interface and presentation-layer coverage while retaining internal stimulus/protocol identifiers for compatibility.
+The v2.0 manual documents the validated experimental architecture used by the v2.x branch. Versions 2.1.x primarily extend the bilingual interface and presentation-layer coverage; versions 2.2.x add the non-experimental FOCUS / ENFOQUE alignment utility and translation corrections while retaining the established stimulation, timing and protocol architecture.
 
 See [`CHANGELOG.md`](CHANGELOG.md) for the subsequent maintenance history.
 
@@ -109,12 +100,12 @@ See [`CHANGELOG.md`](CHANGELOG.md) for the subsequent maintenance history.
 
 The source is provided in two equivalent forms:
 
-- [`src/Visual_Stimulator_v2_1_3.py`](src/Visual_Stimulator_v2_1_3.py) — easier to inspect, search and diff on GitHub.
-- [`src/Visual_Stimulator_v2_1_3.ipynb`](src/Visual_Stimulator_v2_1_3.ipynb) — Jupyter notebook retained for development continuity.
+- [`src/Visual_Stimulator_v2_2_1.py`](src/Visual_Stimulator_v2_2_1.py) — easier to inspect, search and diff on GitHub.
+- [`src/Visual_Stimulator_v2_2_1.ipynb`](src/Visual_Stimulator_v2_2_1.ipynb) — Jupyter notebook retained for development continuity.
 
 The application uses Python/Tkinter for the operator interface and PsychoPy for experimental visual presentation. The source environment also requires NumPy and Pyglet; PySerial is used by FTDI-based trigger modes.
 
-Exact package versions for the v2.1.3 development environment are not currently pinned in the repository. For experimental use, the packaged Windows release is therefore the recommended distribution. Developers running from source should validate display timing and hardware behavior on their own setup.
+Exact package versions for the v2.2.1 development environment are not currently pinned in the repository. For experimental use, the packaged Windows release is therefore the recommended distribution. Developers running from source should validate display timing and hardware behavior on their own setup.
 
 ## Experimental records and reproducibility
 
